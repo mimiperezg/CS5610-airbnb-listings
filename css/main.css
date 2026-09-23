@@ -1,0 +1,75 @@
+/* changed to same height on every card, cropped to fit. also changed only to card-img-top to only affect rental photos */
+#listings .card-img-top {
+    /* width: 100%;
+    height: 100%; */
+    height: 300px;
+    object-fit: cover;
+}
+/* changed to same height on every card, cropped to fit. also changed only to card-img-top to only affect rental photos */
+#listings .card-img-top {
+    /* width: 100%;
+    height: 100%; */
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+/* price should be bold and a little larger than regular text */
+.price {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* small circular photo next to the host's name */
+.host {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+.host img {
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+
+/* description should be smaller, and limited to a few lines */
+/* used webkitline-clamp to limit the description to 4 lines */
+.description {
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* small circular photo next to the host's name */
+.host {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+.host img {
+    width: 45px;
+    height: 45px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+
+/* description should be smaller, and limited to a few lines */
+/* used webkitline-clamp to limit the description to 4 lines */
+.description {
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
